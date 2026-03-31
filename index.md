@@ -1,23 +1,35 @@
-# 💳 My Digital Wallet App
-Welcome to the official home page for my mobile wallet application.
+# CardVault 💳
 
-## 🚀 Overview
-A secure, Flutter-powered mobile application designed to store and manage credit cards digitally. This app focuses on user privacy and a seamless virtual card experience.
+Smart Credit Card Management App
 
-## ✨ Key Features
-* **Secure Storage:** Store your card details locally on your device.
-* **Virtual Interface:** A sleek UI that mimics physical cards.
-* **Smart Search:** Quickly find specific cards by bank or type.
-* **Fast Navigation:** Optimized for quick access during payments.
-
-## 🛠️ Technology Stack
-* **Framework:** [Flutter](https://flutter.dev)
-* **Language:** Dart
-* **Integrations:** Google Pay API & OAuth 2.0
-* Terms of Service
-* https://mukulmark42.github.io/Terms-of-Service/
-* Privacy Policy – CardVault
-* https://mukulmark42.github.io/cardvault-privacy/
+CardVault helps you automatically track your credit card bills, detect due dates from emails, and never miss a payment again.
 
 ---
-© 2026 Mukul Rahaman | Built with ❤️ using Flutter
+
+## 🚀 Features
+
+* 📧 Automatic bill detection from Gmail
+* ⏰ Smart due date reminders
+* 💳 Multiple credit card support
+* 🔒 Secure & privacy-focused
+
+---
+
+## 🔗 Important Links
+
+* 🔐 [Privacy Policy](https://mukulmark42.github.io/cardvault-privacy/)
+* 📜 [Terms of Service](https://mukulmark42.github.io/cardvault-privacy/Terms-of-Service/)
+
+---
+
+## 🔒 Privacy First
+
+We respect your privacy.
+CardVault only accesses necessary email data with your permission and never shares your data with third parties.
+
+---
+
+## 📩 Contact
+
+For support or queries:
+info@ssinfotech.qzz.io
