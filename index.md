@@ -1,130 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CardVault | Home</title>
-    <style>
-        :root {
-            --primary-color: #24292e;
-            --accent-color: #0366d6;
-            --text-muted: #586069;
-            --bg-color: #ffffff;
-            --section-bg: #f6f8fa;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CardVault – Smart Credit Card Manager</title>
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--primary-color);
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-        }
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            text-align: center;
-        }
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
 
-        header {
-            padding: 60px 0;
-        }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
 
-        p.subtitle {
-            font-size: 1.2rem;
-            color: var(--text-muted);
-            margin-bottom: 30px;
-        }
+    h2 {
+      color: #0d47a1;
+    }
 
-        .links-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
+    p {
+      line-height: 1.6;
+    }
 
-        .btn {
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 6px;
-            font-weight: 500;
-            transition: background-color 0.2s;
-        }
+    ul {
+      padding-left: 20px;
+    }
 
-        .btn-outline {
-            border: 1px solid #e1e4e8;
-            color: var(--accent-color);
-        }
+    .links {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+    }
 
-        .btn-outline:hover {
-            background-color: var(--section-bg);
-            border-color: var(--accent-color);
-        }
+    .links a {
+      display: inline-block;
+      margin-right: 20px;
+      text-decoration: none;
+      color: #0d47a1;
+      font-weight: bold;
+    }
 
-        .contact-section {
-            margin-top: 80px;
-            padding: 40px;
-            background-color: var(--section-bg);
-            border-radius: 8px;
-        }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
 
-        .contact-section h2 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-        }
-
-        .email-link {
-            color: var(--accent-color);
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: 500;
-        }
-
-        .email-link:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            margin-top: 100px;
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            border-top: 1px solid #e1e4e8;
-            padding-top: 20px;
-        }
-    </style>
+    .contact {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
 
-    <div class="container">
-        <header>
-            <h1>CardVault</h1>
-            <p class="subtitle">Secure digital management for your essential information.</p>
-            
-            <div class="links-container">
-                <a href="https://mukulmark42.github.io/cardvault-privacy/" class="btn btn-outline">Privacy Policy</a>
-                <a href="https://mukulmark42.github.io/Terms-of-Service/" class="btn btn-outline">Terms of Service</a>
-            </div>
-        </header>
+<header>
+  <h1>CardVault</h1>
+  <p>Smart Credit Card Bill & Expense Manager</p>
+</header>
 
-        <section class="contact-section">
-            <h2>Contact Us</h2>
-            <p>For support, inquiries, or feedback regarding our services, please reach out via email:</p>
-            <a href="mailto:mukulrahaman1@gmail.com" class="email-link">mukulrahaman1@gmail.com</a>
-        </section>
+<div class="container">
 
-        <footer>
-            <p>&copy; 2024 CardVault. All rights reserved.</p>
-        </footer>
-    </div>
+  <h2>About the App</h2>
+  <p>
+    CardVault is a mobile application designed to help users manage their credit cards efficiently.
+    It automatically detects credit card bill details from your registered email accounts and sends timely reminders for due payments.
+  </p>
+
+  <h2>Key Features</h2>
+  <ul>
+    <li>Automatic credit card bill detection from email</li>
+    <li>Due date reminders and notifications</li>
+    <li>Multi-card and multi-email support</li>
+    <li>Secure and private data handling</li>
+  </ul>
+
+  <h2>How We Use Your Data</h2>
+  <p>
+    CardVault requests read-only access to your email solely to identify credit card bill notifications.
+    We do not modify, send, or delete any emails. Your data is processed securely and used only to provide core app functionality.
+  </p>
+
+  <div class="links">
+    <a href="https://mukulmark42.github.io/cardvault-privacy/" target="_blank">
+      Privacy Policy
+    </a>
+
+    <a href="https://mukulmark42.github.io/Terms-of-Service/" target="_blank">
+      Terms of Service
+    </a>
+  </div>
+
+  <div class="contact">
+    Contact: mukulrahaman1@gmail.com
+  </div>
+
+</div>
+
+<footer>
+  © 2026 CardVault. All rights reserved.
+</footer>
 
 </body>
 </html>
