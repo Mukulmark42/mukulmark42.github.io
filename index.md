@@ -1,33 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>CardVault - Credit Card Manager</title>
-</head>
-<body style="font-family: Arial; max-width: 800px; margin: auto; padding: 20px;">
+# 💳 CardVault (Digital Wallet App)
 
-  <h1>CardVault</h1>
+Welcome to the official home page for **CardVault**, your secure digital wallet application.
 
-  <p>
-    CardVault is a credit card management app that helps users track bill due dates and receive reminders.
-  </p>
+## 🚀 App Functionality
+CardVault is a mobile application designed to help you securely store and manage your credit cards digitally. Our app provides a virtual interface for organization, quick access, and smart search, ensuring your payment methods are always safely at your fingertips.
 
-  <h2>Features</h2>
-  <ul>
-    <li>Reads billing emails (with permission)</li>
-    <li>Tracks due dates</li>
-    <li>Sends reminders</li>
-  </ul>
+## 🔒 Data Usage & Transparency
+We value your privacy and believe in full transparency regarding how your data is handled. 
 
-  <h2>Data Usage</h2>
-  <p>
-    CardVault reads Gmail data only to detect credit card bills and notify users. No data is shared or misused.
-  </p>
+**Why we request Google Data:**
+CardVault requests access to your Google account (specifically read-only access to your Gmail) solely for the following purpose:
+* **Transaction Tracking:** The app uses this access to securely detect and read transaction receipts and payment notifications from your bank. This allows CardVault to automatically log your expenses and update your spending dashboard without requiring manual data entry.
 
-  <h2>Links</h2>
-  <ul>
-    <li><a href="https://mukulmark42.github.io/cardvault-privacy/">Privacy Policy</a></li>
-    <li><a href="https://mukulmark42.github.io/Terms-of-Service/">Terms of Service</a></li>
-  </ul>
+**Our Commitment to Security:**
+* We **do not** read your personal conversations.
+* We **do not** store your email content on external servers.
+* We **do not** share or sell your data to third parties. 
+* All parsing is done to enhance your personal application experience.
 
-</body>
-</html>
+## 🔗 Legal & Policies
+Please review our policies to understand your rights and how we protect your information:
+* [Privacy Policy](https://mukulmark42.github.io/cardvault-privacy)
+* [Terms of Service](https://mukulmark42.github.io/Terms-of-Service)
+
+## 📬 Contact Information
+For user support, questions regarding data privacy, or data deletion requests, please contact our developer team:
+**Email:** info@ssinfotech.qzz.io
+
+---
+*This page is publicly accessible and does not require a login to view.*
