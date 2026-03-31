@@ -1,3 +1,11 @@
+---
+layout: default
+title: CardVault Home
+head:
+  - - meta
+    - name: google-site-verification
+      content: j62vV3tJwTNR18r52XQxETeuKD3WxzImLyUluXvoheA
+---
 # 💳 CardVault (Digital Wallet App)
 
 Welcome to the official home page for **CardVault**, your secure digital wallet application.
