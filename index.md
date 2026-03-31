@@ -14,6 +14,10 @@ A secure, Flutter-powered mobile application designed to store and manage credit
 * **Framework:** [Flutter](https://flutter.dev)
 * **Language:** Dart
 * **Integrations:** Google Pay API & OAuth 2.0
+* Terms of Service
+* https://mukulmark42.github.io/Terms-of-Service/
+* Privacy Policy – CardVault
+* https://mukulmark42.github.io/cardvault-privacy/
 
 ---
 © 2026 Mukul Rahaman | Built with ❤️ using Flutter
