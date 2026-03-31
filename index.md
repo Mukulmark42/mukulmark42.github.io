@@ -18,7 +18,7 @@ CardVault helps you automatically track your credit card bills, detect due dates
 ## 🔗 Important Links
 
 * 🔐 [Privacy Policy](https://mukulmark42.github.io/cardvault-privacy/)
-* 📜 [Terms of Service](https://mukulmark42.github.io/cardvault-privacy/Terms-of-Service/)
+* 📜 [Terms of Service](https://mukulmark42.github.io/Terms-of-Service/)
 
 ---
 
