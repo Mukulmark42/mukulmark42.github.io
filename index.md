@@ -1,39 +1,130 @@
----
-layout: default
-title: CardVault Home
-head:
-  - - meta
-    - name: google-site-verification
-      content: j62vV3tJwTNR18r52XQxETeuKD3WxzImLyUluXvoheA
----
-# 💳 CardVault (Digital Wallet App)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardVault | Home</title>
+    <style>
+        :root {
+            --primary-color: #24292e;
+            --accent-color: #0366d6;
+            --text-muted: #586069;
+            --bg-color: #ffffff;
+            --section-bg: #f6f8fa;
+        }
 
-Welcome to the official home page for **CardVault**, your secure digital wallet application.
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--primary-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+        }
 
-## 🚀 App Functionality
-CardVault is a mobile application designed to help you securely store and manage your credit cards digitally. Our app provides a virtual interface for organization, quick access, and smart search, ensuring your payment methods are always safely at your fingertips.
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
 
-## 🔒 Data Usage & Transparency
-We value your privacy and believe in full transparency regarding how your data is handled. 
+        header {
+            padding: 60px 0;
+        }
 
-**Why we request Google Data:**
-CardVault requests access to your Google account (specifically read-only access to your Gmail) solely for the following purpose:
-* **Transaction Tracking:** The app uses this access to securely detect and read transaction receipts and payment notifications from your bank. This allows CardVault to automatically log your expenses and update your spending dashboard without requiring manual data entry.
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
 
-**Our Commitment to Security:**
-* We **do not** read your personal conversations.
-* We **do not** store your email content on external servers.
-* We **do not** share or sell your data to third parties. 
-* All parsing is done to enhance your personal application experience.
+        p.subtitle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+        }
 
-## 🔗 Legal & Policies
-Please review our policies to understand your rights and how we protect your information:
-* [Privacy Policy](https://mukulmark42.github.io/cardvault-privacy)
-* [Terms of Service](https://mukulmark42.github.io/Terms-of-Service)
+        .links-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-## 📬 Contact Information
-For user support, questions regarding data privacy, or data deletion requests, please contact our developer team:
-**Email:** info@ssinfotech.qzz.io
+        .btn {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
 
----
-*This page is publicly accessible and does not require a login to view.*
+        .btn-outline {
+            border: 1px solid #e1e4e8;
+            color: var(--accent-color);
+        }
+
+        .btn-outline:hover {
+            background-color: var(--section-bg);
+            border-color: var(--accent-color);
+        }
+
+        .contact-section {
+            margin-top: 80px;
+            padding: 40px;
+            background-color: var(--section-bg);
+            border-radius: 8px;
+        }
+
+        .contact-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        .email-link {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 100px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            border-top: 1px solid #e1e4e8;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>CardVault</h1>
+            <p class="subtitle">Secure digital management for your essential information.</p>
+            
+            <div class="links-container">
+                <a href="https://mukulmark42.github.io/cardvault-privacy/" class="btn btn-outline">Privacy Policy</a>
+                <a href="https://mukulmark42.github.io/Terms-of-Service/" class="btn btn-outline">Terms of Service</a>
+            </div>
+        </header>
+
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>For support, inquiries, or feedback regarding our services, please reach out via email:</p>
+            <a href="mailto:mukulrahaman1@gmail.com" class="email-link">mukulrahaman1@gmail.com</a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 CardVault. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
